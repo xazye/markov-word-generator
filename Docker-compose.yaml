@@ -1,0 +1,7 @@
+services:
+  php_markov:
+    build: ./
+    ports:
+      - "80:80"
+    volumes:
+      - ./markov:/var/www/html/
